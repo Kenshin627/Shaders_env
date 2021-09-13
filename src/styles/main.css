@@ -25,7 +25,15 @@ body {
   width: 85%;
   height: 100%;
   box-sizing: border-box;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
+
+/* .canv {
+  width: 256px;
+  height: 256px;
+} */
 
 .menu-item {
   font-size: 14px;

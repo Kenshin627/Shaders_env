@@ -3,7 +3,7 @@ const htmlWebpackPlugin = require("html-webpack-plugin");
 const resolve = (dir) => path.resolve(__dirname, dir);
 
 module.exports = {
-  entry: "./src/index.js",
+  entry: "./src/scripts/index.js",
   resolve: {
     alias: {
       "@": resolve("src"),
@@ -19,4 +19,12 @@ module.exports = {
       template: "./public/index.html",
     }),
   ],
+  module: {
+    rules: [
+      {
+        test: /\.css/i,
+        use: ["style-loader", "css-loader"],
+      },
+    ],
+  },
 };

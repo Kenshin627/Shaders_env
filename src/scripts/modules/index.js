@@ -1,3 +1,3 @@
-import { cityRelation } from "./canvas";
+import { renderPipeline } from "./renderPipeLines";
 
-export default { cityRelation };
+export default { renderPipeline };
