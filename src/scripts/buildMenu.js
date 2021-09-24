@@ -36,7 +36,7 @@ const MENU = [
   },
   {
     title: "仿射变换对几何图形进行坐标变换",
-    render: null,
+    render: "affineTransform",
   },
   {
     title: "图形系统如何表示颜色",

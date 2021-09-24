@@ -1,3 +1,4 @@
 import { renderPipeline } from "./renderPipeLines";
+import { affineTransform } from "./affineTransform";
 
-export default { renderPipeline };
+export default { renderPipeline, affineTransform };
